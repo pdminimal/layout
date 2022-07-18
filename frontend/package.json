@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "format": "rome format src --indent-style space --indent-size 2 --line-length 120 --write",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "rome": "^0.7.0-next",
     "typescript": "^4.5.4",
     "vite": "^2.9.7",
     "vitest": "^0.12.0"
